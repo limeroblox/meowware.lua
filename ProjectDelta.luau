@@ -86,7 +86,7 @@ local worldToViewportPoint = Camera.worldToViewportPoint
 -- Aimbot
 loadstring(game:HttpGet("https://www.octohook.xyz/infinity/aimbot2.lua"))()
 
-local OrionLib  = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib  = loadstring(game:HttpGet(('https://raw.githubusercontent.com/darkkcontrol/Roblox-Orion-UI-Libary-OP-UI-LIBARY-/refs/heads/main/source')))()
 local library   = loadstring(game:HttpGet("https://raw.githubusercontent.com/Callumgm/Roblox-Scripts/main/ui.lua"))()
 local watermark = library:Watermark("1NF1N17Y | 60 fps | 60ms | " .. script_version_number .. " | Paid")
 
