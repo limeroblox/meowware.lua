@@ -84,7 +84,7 @@ local worldToViewportPoint = Camera.worldToViewportPoint
 
 
 -- Aimbot
-loadstring(game:HttpGet("https://www.octohook.xyz/infinity/aimbot2.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/limeroblox/meowware.lua/refs/heads/main/assets/aimbot2.luau"))()
 
 local OrionLib  = loadstring(game:HttpGet(('https://raw.githubusercontent.com/darkkcontrol/Roblox-Orion-UI-Libary-OP-UI-LIBARY-/refs/heads/main/source')))()
 local library   = loadstring(game:HttpGet("https://raw.githubusercontent.com/Callumgm/Roblox-Scripts/main/ui.lua"))()
