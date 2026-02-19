@@ -91,7 +91,7 @@ local library   = loadstring(game:HttpGet("https://raw.githubusercontent.com/Cal
 local watermark = library:Watermark("1NF1N17Y | 60 fps | 60ms | " .. script_version_number .. " | Paid")
 
 
-local ESP, ESP_RenderStepped, Framework = loadstring(game:HttpGet("https://www.octohook.xyz/infinity/ESP.lua"))()
+local ESP, ESP_RenderStepped, Framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/limeroblox/meowware.lua/refs/heads/main/assets/esp.luau"))()
 repeat task.wait() until ReplicatedPlayers
 
 local Loaded, Running = false, true
