@@ -58,7 +58,7 @@ function CheckStaffTable2(UserID)
 end
 
 local script_version_number = "Beta v3.3"
-local last_updated = "30/11/2022"
+local last_updated = "2/18/26"
 local serverLabel
 
 --[Main Variables]
@@ -88,7 +88,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/limeroblox/meowware.l
 
 local OrionLib  = loadstring(game:HttpGet(('https://raw.githubusercontent.com/darkkcontrol/Roblox-Orion-UI-Libary-OP-UI-LIBARY-/refs/heads/main/source')))()
 local library   = loadstring(game:HttpGet("https://raw.githubusercontent.com/Callumgm/Roblox-Scripts/main/ui.lua"))()
-local watermark = library:Watermark("1NF1N17Y | 60 fps | 60ms | " .. script_version_number .. " | Paid")
+local watermark = library:Watermark("ScavWare | 60 fps | 60ms | " .. script_version_number .. " | DEV")
 
 
 local ESP, ESP_RenderStepped, Framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/limeroblox/meowware.lua/refs/heads/main/assets/esp.luau"))()
